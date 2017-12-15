@@ -33,6 +33,16 @@ app.get('/heatmap',function(req,res) {
           lat: 49.25,
           lng: -123.1,
           population: 603502
+        },
+        {
+          lat:21,
+          lng:105.8,
+          population: 8500000
+        },
+        {
+          lat:39,
+          lng:116,
+          population: 15000000
         }
     ];
     res.json(citymap);
